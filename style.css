@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@200&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    background: WHITE;
+    font-family: 'Palanquin', sans-serif;
+}
+
+
+.navbar-brand img {
+    width: 90px;
+    height: 23px;
+}
+
+.nav-item a {
+    padding-top: 15px;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(8, 7, 7, 0.795);
+}
+
+.nav-item a:hover {
+    color: rgba(8, 7, 7, 0.795);
+    border-bottom: 1px solid rgba(40, 34, 34, 0.829);
+}
+
+.navbar-toggler-icon {
+    font-size: 30px;
+}
+
+.icon-class {
+    margin-inline-end: 60px;
+
+}
+
+.icon-class li {
+    list-style: none;
+    outline: none;
+    color: black;
+    display: inline-block;
+
+}
+
+.icon-class a {
+    color: rgba(0, 0, 0, 0.855);
+}
+
+.icon-class .fa {
+    font-size: 15px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.hub {
+    background-image: url(./img/slide1.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 90%;
+}
+
+.first-content {
+    text-align: center;
+    padding-top: 220px;
+    padding-bottom: 10px;
+    /* transform: translate(-50px, -50px); */
+}
+
+.first-content h1 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.first-content p {
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.first-btn {
+    background-color: rgba(0, 0, 0, 0.849);
+    color: white;
+    width: 120px;
+    height: 40px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.section-2 {
+    margin-top: 20px;
+    /* margin-right: 20px; */
+}
+
+.row {
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
+.tech img {
+    width: 220px;
+    height: 150px;
+}
+
+.mac h1 {
+    font-size: 18px;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+
+.edge {
+    font-size: 18px;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+#unleash{
+    font-size: 14.5px;
+}
+.mac p{
+    font-weight: 400;
+}
+.stroke{
+    font-weight: bold;
+}
+.unleash{
+    font-size: 30px;
+}
+
+.mac a {
+    margin-top: 90px;
+}
+.linker{
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgba(137, 43, 226, 0.829);
+    /* margin-top: 90px; */
+}
+.second-section{
+    margin-top: 45px;
+}
+.hob{
+    background-image: url(./img/xbox.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 90%;
+}
+.third-content{
+    padding-top: 55px;
+    padding-left: 20px;
+}
+.pass{
+    font-size: 25px;
+    font-weight: bolder;
+    /* padding-bottom: -20px; */
+}
+.high{
+    font-weight: bold;
+    font-size: 15px;
+    width: 39%;
+    /* padding-right: 570px; */
+}
+.second-btn {
+    background-color: rgba(0, 0, 0, 0.849);
+    color: white;
+    width: 120px;
+    height: 40px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 29px;
+}
+.row1{
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 120px;
+}
+.third-section{
+    margin-top: 380px;
+}
+.carbon{
+    background-image: url(./img/tech-guy.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 45vh;
+    width: 90%;
+}
+.fourth-content{
+    padding-top: 100px;
+    padding-left: 20px;
+}
+.positiv{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.since{
+    width: 52%;
+}
+.third-btn {
+    background-color: white;
+    color: black;
+    width: 120px;
+    height: 40px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 16px;
+}
+.follow{
+    padding-left: 78px;
+    padding-top: 17px;
+    font-weight: 500;
+    font-size: 20px;
+}
+#icon-2{
+    font-size: 35px;
+    color:  rgba(0, 0, 255, 0.521);
+}
+.footer{
+background-color: #f2f2f2;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 70vh;
+margin-top: 30px;
+/* padding-left: 20px; */
+}
+.row3{
+flex-direction: row;
+flex-wrap: wrap;
+padding-top: 30px;
+padding-left: 20px;
+}
+.new{
+    display: inline-block;
+}
+.new h3{
+    font-size: 15px;
+    font-weight: bolder;
+padding-left: 30px;
+}
+
+.new li{
+    list-style: none;
+    color: black;
+    margin-top: 10px;
+    
+}
+.new a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+.row5{
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 19px;
+    padding-top: 60px;
+    /* font-weight: bold; */
+}
+.globe h5{
+    font-size: 14px;
+    padding-left: 20px;
+   
+}
+.map h5{
+    font-size: 11px;
+    padding-top: 1px;
+    font-weight: bolder;
+}
+.map a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 920px) {
+    .navbar-brand {
+        position: relative;
+        padding-bottom: 20px;
+    }
+
+    .icon-class {
+        position: absolute;
+        top: 17px;
+        right: 10px;
+    }
+    .mac {
+    /* margin-left: 80px; */
+        margin-bottom: 20px;
+    }
+    
+    .tech img{
+        width: 270px;
+    }
+   .stroke{
+    padding-right: 50px;
+   }
+   .row{
+    padding-left: 30px;
+   }
+   #passes{
+    width: 5%;
+    font-weight: bolder;
+    line-height: 1.4;
+   }
+
+   #micro{
+    display: none;
+   }
+   .third-section{
+    margin-top: 1550px;
+   }
+   .carbon{
+    height: 60vh;
+    /* margin-top: 400px; */
+   }
+   .since{
+    width: 90%;
+   }
+   .follow{
+    padding-left: 20px;   
+}
+.footer{
+    height: 150vh;
+}
+.map{
+    margin: 10px;
+}
+#contact{
+   margin-top: -1spx;
+}
+}
+
+
+@media only screen and (max-width: 420px) {
+    .mac{
+        margin-top: 48px;
+        /* margin-left: 15px; */
+        padding-left: 10px;
+    }
+}
